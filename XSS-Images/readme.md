@@ -10,8 +10,7 @@
 # PoC
 
 1. Crafted SVG file as an XSS-PoC
-
-![image](https://github.com/dd3x3r/XSS-Nabu/assets/74184545/92eda9f8-42dd-48ba-b1ff-2d4a53245d88)
+![image](https://github.com/dd3x3r/XSS-Nabu/assets/74184545/77fbff42-2e6c-4977-bd50-8b84efb93e3f)
 
 2. Upload the image into the CMS, as the profile cover picture (1) or as the profile picture of the user (2).
 
