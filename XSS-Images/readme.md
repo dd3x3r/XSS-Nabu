@@ -10,23 +10,27 @@
 # PoC
 
 1. Crafted SVG file as an XSS-PoC
+
 ![image](https://github.com/dd3x3r/XSS-Nabu/assets/74184545/77fbff42-2e6c-4977-bd50-8b84efb93e3f)
 
 2. Upload the image into the CMS, as the profile cover picture (1) or as the profile picture of the user (2).
 
-![image](https://github.com/dd3x3r/XSS-Nabu/assets/74184545/a51f4538-c84f-4abe-8e6b-df41c421c55b)
+![image](https://github.com/dd3x3r/XSS-Nabu/assets/74184545/ff6dda63-2779-4895-9246-f438754fcb59)
+
 
 3. With the picture saved (in the PoC as the profile picture), inspect and copy the link of the source image.
 
-![image](https://github.com/dd3x3r/XSS-Nabu/assets/74184545/d3d79ff5-7af4-4e2c-b5b9-f310562b5b32)
+![image](https://github.com/dd3x3r/XSS-Nabu/assets/74184545/65036b46-ad69-4617-9057-2af0ad24a6e6)
 
 
 4. Create a post with a link to the SVG upoad file.
 
-![image](https://github.com/dd3x3r/XSS-Nabu/assets/74184545/16eb677e-8df3-468e-b697-55be61d44d7e)
+![image](https://github.com/dd3x3r/XSS-Nabu/assets/74184545/8834ec55-b56d-477b-b84f-e526333148b2)
+
 
 5. When posted, if clicked it will execute the crafted paylaod.
 
-![image](https://github.com/dd3x3r/XSS-Nabu/assets/74184545/1f5fb2ed-5586-4a97-b2da-0e3681a8f318)
-![image](https://github.com/dd3x3r/XSS-Nabu/assets/74184545/05443b51-c261-4fd2-a302-c10b619e8dfe)
+![image](https://github.com/dd3x3r/XSS-Nabu/assets/74184545/d4525f55-6ab4-4bab-afe6-aac2d18ba8ac)
+![image](https://github.com/dd3x3r/XSS-Nabu/assets/74184545/e8a18003-51f7-4490-8aaf-9348698999b2)
+
 
